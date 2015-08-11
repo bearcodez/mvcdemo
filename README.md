@@ -6,4 +6,4 @@ The interesting part is in the View.cshtml file. The kendoGrid has multiple diff
 
 The model data of the columns are define in the Models/ERPIntegrationProcessModel.cs
 
-All the logic and function for each Views are define in Controllers/ERPIntegrationProcessController.cs The controller file is able to do search, filtering and sorting based on user search criteria and return the result as JSON to kendoGrid component. In the function "public ActionResult Retry(int id)", it involve database connectivity and will create a new empty record and save into database.
+All the logic and function for each Views are defined in Controllers/ERPIntegrationProcessController.cs The controller file is able to do search, filtering and sorting based on user search criteria and return the result as JSON to kendoGrid component. In the function "public ActionResult Retry(int id)", it involve database connectivity and will create a new empty record and save into database.
